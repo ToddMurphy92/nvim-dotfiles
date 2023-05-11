@@ -1,5 +1,7 @@
+.gitconfig
 tags
 test.sh
 .luarc.json
 nvim
 lazy-lock.json
+.init.lua.un~
