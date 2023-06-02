@@ -1,3 +1,6 @@
 require("todd.remap")
 require("todd.set")
+require("todd.options")
+require("custom.lazy")
+--require("todd.theme")
 print("Hello from Todd")
