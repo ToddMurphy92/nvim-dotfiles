@@ -47,10 +47,7 @@ require('lazy').setup({
     },
   },
 
-  -- Themes - Testing out calling themes here
-  -- { 'catppuccin/nvim', name = 'catppuccin' },
-  -- 'navarasu/onedark.nvim',
-  -- 'folke/tokyonight.nvim',
+  -- Theme
   'rose-pine/neovim',
 
   -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
