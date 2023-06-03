@@ -1,6 +1,9 @@
 -- [[ Setting options ]]
 -- See `:help vim.o`
 
+-- Try to keep lines to 80 characters or less
+vim.o.colorcolumn = "81"
+
 -- Set highlight on search
 vim.o.hlsearch = false
 
