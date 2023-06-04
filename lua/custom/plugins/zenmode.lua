@@ -8,7 +8,7 @@ return {
   },
 
   config = function()
-    vim.keymap.set("n", "<leader>zz", function()
+    vim.keymap.set("n", "<leader>tz", function()
       require("zen-mode").setup {
         window = {
           width = 90,
