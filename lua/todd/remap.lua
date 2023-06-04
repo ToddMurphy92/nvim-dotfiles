@@ -11,6 +11,18 @@ vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '>-2<CR>gv=gv")
 
+-- Toggle colorcolumn with <leader>tc
+function ToggleColorColumn()
+  local colorcolumn = vim.wo.colorcolumn or ""
+  if colorcolumn ~= "" then
+    vim.wo.colorcolumn = ""
+  else
+    vim.wo.colorcolumn = "81" -- Change this to your desired column number
+  end
+end
+
+vim.keymap.set('n', '<leader>tc', ':lua ToggleColorColumn()<CR>', { noremap = true, desc = "Toggle colorcolumn" })
+
 -- Unmap Q -- Uncommented as neovim has changed the default behaviour it seems
 -- vim.keymap.set("n", "Q", "<nop>")
 
