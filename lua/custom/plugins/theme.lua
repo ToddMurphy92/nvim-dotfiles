@@ -46,7 +46,8 @@ return {
       ColorColumn = { bg = 'muted' },
 
       -- Blend colours against the "base" background
-      CursorLine = { bg = 'foam', blend = 10 },
+      CursorLine = { bg = 'foam', blend = 2 },
+      CursorColumn = { bg = 'foam', blend = 2 },
       StatusLine = { fg = 'love', bg = 'love', blend = 10 },
     }
   }),

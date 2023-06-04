@@ -1,6 +1,15 @@
 -- [[ Setting options ]]
 -- See `:help vim.o`
 
+-- Highlight the current line
+vim.api.nvim_command('set cursorline')
+
+-- Highlight the current column
+vim.api.nvim_command('set cursorcolumn')
+
+-- Highlight the line number column for the current line
+vim.api.nvim_command('highlight CursorLineNr guibg=Yellow ctermbg=Yellow')
+
 -- Try to keep lines to 80 characters or less
 vim.o.colorcolumn = "81"
 
